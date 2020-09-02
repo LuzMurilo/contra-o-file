@@ -1,8 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+    <img alt="Logo" src="https://github.com/LuzMurilo/contra-o-file/blob/master/src/images/logo1.png" width="200" />
 </p>
 <h1 align="center">
   Site Contra o Filé
