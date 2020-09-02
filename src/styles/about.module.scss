@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Fresca';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fresca'), url(../fonts/Fresca-Regular.ttf) format('truetype');
+}
+
+.transicao {
+    /* transição */
+
+    position: absolute;
+    width: 100vw;
+    height: 673px;
+    left: 0;
+    top: 656px;
+
+    background: linear-gradient(180deg, #5E8F0B 0%, rgba(68, 109, 0, 0) 100%);
+    z-index: 2;
+}
+
+.titulo {
+    position: absolute;
+    width: 485.86px;
+    height: 452.16px;
+    left: -1.86px;
+    top: 500.46px;
+
+    background-image: url('../images/quem-somos-titulo.png');
+    z-index: 3;
+}
+
+.caixa1 {
+    position: absolute;
+    width: 882px;
+    height: 312px;
+    left: 486px;
+    top: 790px;
+    background: rgba(32, 32, 32, 0.25);
+    border-radius: 28px;
+    z-index: 2;
+}
+
+.imagem1 {
+    position: inherit;
+    left: 45.12%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url('../images/agricfamiliar.jpg');
+    background-size: cover;
+    z-index: 3;
+}
+
+.texto1 {
+    position: inherit;
+    left: 4%;
+    right: 56%;
+    top: 10%;
+    bottom: 10%;
+    
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    
+    color: #F7F7F7;    
+}
+
+.caixa2 {
+    position: absolute;
+    width: 912px;
+    height: 380px;
+    left: -124px;
+    top: 1150px;
+
+    background: rgba(32, 32, 32, 0.25);
+    border-radius: 28px;
+    z-index: 2;
+}
+
+.imagem2 {
+    position: inherit;
+    left: 13.38%;
+    right: 43.64%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url('../images/pratoveganP.jpg');
+    background-size: cover;
+    z-index: 3;
+}
+
+.texto2 {
+    position: inherit;
+    left: 60%;
+    right: 4%;
+    top: 10%;
+    bottom: 10%;
+    
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    
+    color: #F7F7F7;
+}

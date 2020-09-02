@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Fresca';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fresca'), url(../fonts/Fresca-Regular.ttf) format('truetype');
+}
+
+.head {
+    position: absolute;
+    width: 100%;
+    height: 656px;
+    top: 0px;
+    left: 0px;
+    background-image: url('../images/bgcapa.jpg');
+    background-size: cover;
+    
+    padding: 1rem 0 3rem;
+    z-index: 0;
+}
+.gradiente {
+    position: absolute;
+    width: 100%;
+    height: 656px;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(180deg, rgba(72, 72, 72, 0.25) 81.77%, #5E8F0B 100%);
+    z-index: 1;
+}
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.subtitle {
+    position: absolute;
+    width: 644px;
+    height: 80px;
+    left: calc(50% - 644px/2);
+    top: 330px;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* or 134% */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+    /* Sombra-Logo */
+    text-shadow: 15px 10px 20px rgba(0, 0, 0, 0.3);
+
+    z-index: 3;
+}
+
+.subtitle2 {
+    position: absolute;
+    width: 644px;
+    height: 80px;
+    left: calc(50% - 644px/2);
+    top: 370px;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 134% */
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+    /* Sombra-Logo */
+    text-shadow: 15px 10px 20px rgba(0, 0, 0, 0.3);
+
+    z-index: 3;
+}
+
+.logo {
+    background-image: url('../images/logo2-G.png');
+    position: absolute;
+    width: 538px;
+    height: 144px;
+    top: 150px;
+    left: calc(50% - 538px/2);
+    /* Sombra-Logo */
+    filter: drop-shadow(15px 10px 20px rgba(0, 0, 0, 0.3));
+    z-index: 3;
+}
+
+.botaoCardapio {
+    position: absolute;
+    width: 302px;
+    height: 96px;
+    left: calc(50% - 262px/2);
+    top: 464px;
+
+    cursor: pointer;
+    background-image: url('../images/botao-cardapio.png');
+    z-index: 3;
+}
+
+.botaoCardapio:hover {
+    filter:brightness(1.2);
+}

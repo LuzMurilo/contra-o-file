@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: normal;
+    src: local('CroissantOne'), url(../fonts/CroissantOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Fresca';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fresca'), url(../fonts/Fresca-Regular.ttf) format('truetype');
+}
+
+.titulo {
+    position: absolute;
+    width: 235px;
+    height: 230.65px;
+    left: 114px;
+    top: 1559px;
+
+    background-image: url('../images/cardapio-titulo.png');
+    z-index: 3;
+}
+
+.cardPrincipal {
+    position: absolute;
+    width: 490px;
+    height: 613px;
+    left: 484px;
+    top: 1731px;
+    
+    background: #FFD392;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);    
+}
+
+.cardTitulo {
+    position: inherit;
+    width: 430px;
+    height: 55px;
+    left: 30px;
+    top: 20px;
+    
+    font-family: Croissant One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+    
+    /* #C57A44 */
+    color: #B35E21;
+}
+
+.cardContent {
+    position: absolute;
+    width: 400px;
+    height: 447px;
+    left: 40px;
+    top: 120px;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+
+    color: #B35E21;
+}
+
+.bgPreco {
+    position: absolute;
+    width: 276px;
+    height: 446px;
+    left: 146px;
+    top: 1778px;
+
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    z-index: 3;
+}
+
+.tituloPreco {
+    position: inherit;
+    left: 15%;
+    right: 15%;
+    top: 3%;
+    
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #F6F6F6;
+}
+
+.listaPreco {    
+    list-style-type: none;
+    top: 0%;
+}
+
+.itemPreco {
+    max-width: 100px;
+    top: 10%;
+
+    color: #f6f6f6;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+    margin-right: 20%;
+    margin-left: 22%;
+    margin-top: 80px;
+    text-decoration: none;
+    
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+
+}
+
+.subitem {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 90%;
+    
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #F6F6F6;
+
+    z-index: 4;
+}
+
+.line1 {
+    position: absolute;
+    left: 32%;
+    right: 36%;
+    top: 38%;
+
+    border: 1px solid #F6F6F6;
+}
+
+.line2 {
+    position: absolute;
+    left: 32%;
+    right: 36%;
+    top: 68%;
+
+    border: 1px solid #F6F6F6;
+}
+
+.botaoSeg {
+    /* botao-seg */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: 0px;
+    top: 1773px;
+
+    margin-left: 50%;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaoTer {
+    /* botao-ter */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: -92px;
+    top: 1840px;
+
+    margin-left: 50%;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaoQua {
+    /* botao-qua */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: -92px;
+    top: 1907px;
+
+    margin-left: 50%;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaoQui {
+    /* botao-qui */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: -92px;
+    top: 1974px;
+
+    margin-left: 50%;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaoSex {
+    /* botao-sex */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: -92px;
+    top: 2041px;
+
+    margin-left: 50%;
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botaoSab {
+    /* botao-sab */
+
+    position: absolute;
+    width: 422px;
+    height: 48px;
+    right: -92px;
+    top: 2108px;
+
+
+    font-family: Fresca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #733508;
+
+    background: #FFC671;
+
+    /* sombra-cardapio */
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+}

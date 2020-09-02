@@ -1,0 +1,14 @@
+.container {
+    margin: 0;
+    position: relative;
+    height: 3121px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/Background-green.jpg');
+    overflow: hidden;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 0 auto;
+}

@@ -1,0 +1,123 @@
+
+.titulo {
+    position: absolute;
+    width: 223px;
+    height: 133px;
+    left: 577px;
+    top: 2414px;
+
+    background-image: url('../images/peça-ja-titulo.png');
+}
+
+
+.bgContato {
+    position: absolute;
+    width: 1323px;
+    height: 156px;
+    left: 148px;
+    top: 2590px;
+    
+    /* caixa-de-texto */
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+.logoWhats {
+    position: absolute;
+    left: 4.61%;
+    right: 89.95%;
+    top: 10.9%;
+    bottom: 42.95%;
+    
+    background: url('../images/whatsapp.png');
+    background-size: cover;
+}
+
+.clockIcon {
+    position: absolute;
+    left: 32.43%;
+    right: 62.13%;
+    top: 12.18%;
+    bottom: 41.67%;
+    
+    background: url('../images/clock.png');
+    background-size: cover;
+}
+
+.logoIfood {
+    position: absolute;
+    left: 70.82%;
+    right: 22.68%;
+    top: 30.26%;
+    bottom: 14.62%;
+    
+    background: url('../images/logo-ifood.png');
+    background-size: cover;
+}
+
+.telefone {
+    position: absolute;
+    left: 4.61%;
+    right: 75.98%;
+    top: 60%;
+    
+    /* contato */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 52px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    /* #F6F6F6 */
+    color: #F6F6F6;
+}
+
+.horario {
+    position: absolute;
+    left: 32%;
+    right: 33.64%;
+    top: 60%;
+    
+    /* contato */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 52px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    /* #F6F6F6 */
+    color: #F6F6F6;
+}
+
+.textoIfood {
+    position: absolute;
+    left: 66%;
+    right: 14.81%;
+    top: 12%;
+    bottom: 66.03%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    /* #F6F6F6 */
+    color: #F6F6F6;
+}

@@ -1,0 +1,70 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 294px;
+    right: 0;
+    bottom: 0px;
+
+    background: #1C1C1C;
+
+    z-index: 1;
+}
+
+.signature {
+    position: inherit;
+    width: 200px;
+    height: 30px;
+    right: 5px;
+    bottom: 7px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    color: #F0F0F0;
+}
+
+.logo {
+    position: inherit;
+    width: 234px;
+    height: 142px;
+    left: calc(50% - 234px/2);
+    bottom: 127px;
+
+    background-image: url('../images/logo1.png');
+    background-size: cover;
+    z-index: 3;
+}
+
+.line {
+    position: inherit;
+    width: 1074px;
+    height: 0px;
+    left: calc(50% - 1074px/2);
+    bottom: 115px;
+
+    border: 2px solid #F6F6F6;
+}
+
+.adress {
+    position: inherit;
+    width: 846px;
+    height: 58px;
+    left: calc(50% - 846px/2);
+    bottom: 38px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #F6F6F6;
+}
